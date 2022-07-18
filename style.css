@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+   font-family: sans-serif;  
+
+}
+nav{
+    background: #191353;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 4px 10px rgba(0, 0,0, .3);
+    transition: all .3s;
+}
+nav .logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    line-height: 70px;
+}
+nav ul li a{
+    color: #d8d6f5;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+li a:hover{
+    color: #786edd;
+    transition: .2s;
+}
+.sec1{
+    background-image: url(/Spa-Background-Image.jpg);
+    background-size: cover;
+    height: 100vh ;
+}
+.sec2{
+    background-image: url(/water-background-image.jpg);
+    background-size: cover;
+    height: 100vh ;
+}
+h1{
+    padding: 20px 0 10px 20px;
+    font-size: 40px;
+}
+p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
